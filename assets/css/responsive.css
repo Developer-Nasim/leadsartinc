@@ -1,0 +1,197 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 600px) {
+    body.body {
+        /* padding: 0px 15px; */
+    }
+    main {
+        max-width: 351px;
+    }
+    section.prd_sell p {
+        font-size: 14px;
+    }
+    
+    h3.title {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+    a.gr_btn span {
+    max-width: 250px;
+}
+    .shop b{
+    font-size: 15px;
+}
+    .shop a{
+    font-size: 12px;
+}
+    header a img {
+        width: 200px;
+    }
+    
+    a.gr_btn {
+        font-size: 14px;
+        padding: 15px 20px;
+        line-height: 25px;
+    }
+    header p {
+        font-size: 18px;
+        margin: 24px auto 12px;
+        max-width: 300px;
+    }
+    
+    header span {
+        font-size: 16px;
+    }
+    .card2{
+    font-size: 18px;
+}
+    .ammount_date {
+        flex-direction: column;
+        align-items: end;
+    }
+    
+    .ammount_date p {
+        font-size: 15px;
+        line-height: 1;
+        margin: 13px 0 7px;
+    }
+    
+    .ammount_date p span {
+        font-size: 17px;
+    }
+    
+    header {
+        margin: 15px 10px 30px;
+    }
+    
+    p.p_bold {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .summary h6 {
+        font-size: 18px;
+    }
+    
+    .summary p {
+        margin: 0;
+        padding: 0px 20px 10px;
+        font-size: 15px;
+    }
+    
+    .summary p.summary_last {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    
+    .summary {
+        margin-bottom: 30px;
+    }
+    
+    section.entit p {
+        font-size: 15px;
+        margin-bottom: 7px;
+        line-height: 22px;
+    }
+    
+    section.entit {
+        margin-bottom: 25px;
+    }
+    
+    .pdc_img h1 {
+        font-size: 25px;
+        line-height: 35px;
+        width: 205px;
+        margin-bottom: 0;
+    }
+    
+    .pdc_img {
+        height: 237px;
+    }
+    
+    section.prd_sell {
+        margin-bottom: 50px;
+    }
+    
+    footer p {
+        font-size: 13px;
+        padding: 15px 10px;
+    }
+    .br{
+        height: 10px !important;
+    }
+
+
+    section.cupon {
+    padding: 25px 15px;
+}
+
+section.cupon a {
+    padding: 7px 30px;
+    font-size: 16px;
+}
+
+section.cupon p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+section.cupon span {
+    font-size: 15px;
+}
+
+section.cupon input {
+    margin: 20px auto 20px;
+    height: 45px;
+}
+section.cupon input::placeholder{
+    font-size:16px;
+    transform: translateY(0px);
+    
+}
+section.cupon_last {
+    margin: 30px 0 50px;
+}
+
+section.cupon_last b {
+    font-size: 18px;
+}
+
+section.cupon_last p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 380px) and (max-width: 600px) {
+    .shop a {
+        font-size: 15px;
+    }
+ 
+}

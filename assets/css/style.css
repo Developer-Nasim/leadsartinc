@@ -1,0 +1,452 @@
+/*   Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Arial'), url('ARIAL.woff') format('woff');
+  }
+
+body {
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  }
+
+  
+button {
+  cursor: pointer; }
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none; }
+
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none; }
+
+a,
+button {
+  color: inherit;
+  outline: medium none; }
+
+button:focus, input:focus, input:focus, textarea, textarea:focus {
+  outline: 0; }
+
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: 'Montserrat', sans-serif; */
+  color: black;
+  margin-top: 0px;
+  font-weight: 500;
+  text-transform: normal;
+ }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit; }
+
+h1 {
+  font-size: 40px;
+  font-weight: 500; }
+
+h2 {
+  font-size: 35px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+li {
+  list-style: none; }
+
+ .padding{
+   padding-right: 0;
+ }
+ 
+/* default-css END 
+================================== */
+main {
+    max-width: 715px;
+    padding: 0 12px;
+    margin: auto;
+}
+.body {
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial;
+}
+
+header {
+    text-align: center;
+    margin: 30px 0 50px;
+}
+span.br {
+  display: block;
+  height: 20px;
+}
+header a {
+    display: block;
+}
+
+header a img {
+    max-width: max-content;
+    min-width: 200px;
+}
+.card2{
+    font-weight: bold;
+    font-size: 25px;
+    color: blue;
+}
+header p {/* Hey #name#, here’s your Receipt from #ProductName# */
+    font-family: Arial;
+    margin: 40px auto 30px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    max-width: 530px;
+}
+
+header span {/* OrderID: #orderID# */
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    color: #858585;
+}
+
+.ammount_date {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ammount_date p {/* Amount paid */
+    /* left: 54px; */
+    /* top: 375px; */
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #858585;
+}
+
+.ammount_date p span {
+    display: block;
+/* April 2, 2020 */
+    /* position: absolute; */
+    /* width: 146px; */
+    /* height: 33px; */
+    /* left: 293px; */
+    /* top: 409px; */
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 8px;
+}
+
+.ammount_date p span img {
+    margin-right: 10px;
+    transform: translateY(5px);
+}
+
+p.p_bold {/* This purchase will appear on your credit card statement as #descriptor# */
+    /* position: absolute; */
+    /* width: 702px; */
+    /* height: 59px; */
+    /* left: 54px; */
+    /* top: 472px; */
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.summary {
+    margin-bottom: 50px;
+}
+
+.summary h6 {/* Summary */
+    /* position: absolute; */
+    /* width: 214px; */
+    /* height: 42.1px; */
+    /* left: 54px; */
+    /* top: 571.53px; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #B3B1B1;
+    margin-bottom: 0;
+}
+
+.summary p {
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.summary p span {}
+
+.summary p.summary_last {
+    background: #F4F4F4;
+    padding: 20px 50px;
+    font-weight: 700;
+    color: #000000;
+}
+
+section.entit {
+    margin-bottom: 60px;
+}
+
+h3.title {
+    font-family: Arial;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+section.entit p {
+    font-family: Arial;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 700px;
+    /* margin: auto; */
+    margin-bottom: 20px;
+}
+
+section.prd_sell {
+    margin-bottom: 100px;
+}
+
+section.prd_sell p {
+    font-family: Arial;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100%;
+    /* width: 100px; */
+}
+
+a.gr_btn {
+    font-family: Arial;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #35A730;
+    padding: 25px 0px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+a.gr_btn span{
+    max-width: 540px;
+    display: block;
+    margin: auto;
+}
+.pdc_img {
+    height: 500px;
+    max-width: 695px;
+    left: 54px;
+    top: 1234px;
+    border-radius: 0px;
+    background: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.pdc_img h1 {
+    font-family: Arial;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 410px;
+    margin-bottom: 0;
+}
+.shop {}
+
+.shop b {
+    font-size: 22px;
+}
+
+.shop a {
+    font-size: 22px;
+    display: block;
+    margin-top: 15px;
+    color: blue;
+}
+
+
+section.cupon {
+    border: 1px solid #000000;
+    background: #EEEEEE;
+    border-style: dashed;
+    padding: 35px 25px;
+}
+
+section.cupon a {
+    background: #F56C6C;
+    font-family: Arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: max-content;
+    padding: 18px 130px;
+    margin: auto;
+}
+
+section.cupon p {
+    font-family: Arial;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: auto;
+}
+
+section.cupon span {
+    font-family: Arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: block;
+}
+
+section.cupon input::placeholder{
+  font-family: Arial;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+letter-spacing: 0em;
+text-align: center;
+color: #F56C6C;
+transform: translateY(7px)
+
+
+}
+section.cupon input {
+    display: block;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    border: none;
+    margin: 40px 0 30px;
+}
+
+section.cupon_last {
+    margin: 50px 0 100px;
+}
+
+section.cupon_last b {
+    text-align: center;
+    display: block;
+    font-family: Arial;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2;
+}
+
+section.cupon_last p {
+    font-family: Arial;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+footer {
+    background: #106EE8;
+}
+
+footer p {
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    max-width: 750px;
+    margin: auto;
+}
